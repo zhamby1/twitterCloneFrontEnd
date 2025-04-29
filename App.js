@@ -4,7 +4,7 @@ import {FlatList, Text, TextInput, Button, View, StyleSheet, AsyncStorage } from
 import axios from 'axios';
 import styles from './styles';
 
-const API_URL = 'http://localhost:3000'; // Your backend IP
+const API_URL = 'https://twitterclonebackend-production.up.railway.app'; // Your backend IP
 
 export default function App() {
   const [tweets, setTweets] = useState([]);
